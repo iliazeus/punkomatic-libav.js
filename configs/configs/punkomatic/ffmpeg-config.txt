@@ -1,0 +1,11 @@
+--enable-protocol=data --enable-protocol=file
+--enable-filter=aresample
+--enable-ffmpeg --enable-ffprobe
+--enable-demuxer=pcm_f32le
+--enable-decoder=pcm_f32le
+--enable-filter=amerge
+--enable-filter=aresample
+--enable-encoder=aac
+--enable-muxer=ipod
+--enable-muxer=mov
+--enable-muxer=mp4
