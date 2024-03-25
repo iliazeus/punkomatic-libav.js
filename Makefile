@@ -16,7 +16,6 @@ OPTFLAGS=-Oz
 THRFLAGS=-pthread
 ES6FLAGS=-sEXPORT_ES6=1 -sUSE_ES6_IMPORT_META=1
 EFLAGS=\
-	--memory-init-file 0 \
 	--pre-js pre.js \
 	--post-js build/post.js --extern-post-js extern-post.js \
 	-s "EXPORT_NAME='LibAVFactory'" \
