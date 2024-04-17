@@ -5,7 +5,6 @@
 --enable-decoder=pcm_f32le
 --enable-filter=amerge
 --enable-filter=aresample
---enable-encoder=aac
---enable-muxer=ipod
---enable-muxer=mov
---enable-muxer=mp4
+--enable-libmp3lame
+--enable-encoder=libmp3lame
+--enable-muxer=mp3
